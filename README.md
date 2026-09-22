@@ -35,3 +35,7 @@ The package defines no MCP server, hooks, background jobs, or permission overrid
 ## Package
 
 This repository contains the two public guides from ClawHub release 1.0.2, provider packaging files, this README, and their MIT-0 license. It contains no Orchards application source or credentials.
+
+## Privacy and support
+
+[Privacy policy](https://getorchards.com/legal/privacy/) · [Skill support](https://github.com/cashton-coleman/orchards-agent-skill/issues). Do not post credentials or private wallet information in public support requests.
