@@ -28,7 +28,7 @@ For Gemini CLI:
 gemini extensions install https://github.com/cashton-coleman/orchards-agent-skill
 ```
 
-The repository includes a Gemini CLI extension manifest, a Grok Build plugin manifest, and a standard Agent Plugins 1.0 manifest for compatible hosts such as GitHub Copilot and VS Code. All use the same unchanged guides under `skills/orchards/`. The standard manifest and file layout have been checked locally; Copilot and VS Code runtime installation has not been tested. These files provide installation packaging; an official directory listing or provider endorsement requires the provider's own indexing or review.
+The repository includes a Gemini CLI extension manifest, a Grok Build plugin manifest, and a standard Agent Plugins 1.0 manifest for compatible hosts. Gemini and Grok use the unchanged guides under `skills/orchards/`. The Copilot package is in [`plugins/orchards/`](plugins/orchards/); its guide body and API reference match the originals, with string-valued frontmatter metadata for Agent Skills validation. Its manifest and skills pass local static checks; hosted Copilot installation validation is pending, and model-driven API workflows have not been tested. An official directory listing or provider endorsement requires the provider's own indexing or review.
 
 The package defines no MCP server, hooks, background jobs, or permission overrides. Each host's normal consent and financial-action restrictions still apply.
 
