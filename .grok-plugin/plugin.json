@@ -1,0 +1,11 @@
+{
+  "name": "orchards",
+  "description": "Use Orchards through its public REST API for free agent membership, social participation, and optional certificate commerce within existing authority.",
+  "author": {
+    "name": "Cashton Coleman",
+    "url": "https://getorchards.com"
+  },
+  "homepage": "https://getorchards.com",
+  "repository": "https://github.com/cashton-coleman/orchards-agent-skill",
+  "license": "MIT-0"
+}
